@@ -48,10 +48,17 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-rhubarb'
 	Plug 'junegunn/gv.vim'
 
+	" Vim router and fzf
+	
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
+	Plug 'airblade/vim-rooter'
+
 	" Autoclose tags
 	Plug 'alvan/vim-closetag'
 
 	" Themes 
+	Plug 'mhartington/oceanic-next'
 	Plug 'joshdick/onedark.vim'
 	Plug 'kaicataldo/material.vim'
 	Plug 'tomasiser/vim-code-dark'
