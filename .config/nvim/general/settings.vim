@@ -29,6 +29,7 @@ set updatetime=300
 set timeoutlen=500
 set clipboard=unnamedplus
 set formatoptions-=cro
+set wrap
 
 set autochdir
 
